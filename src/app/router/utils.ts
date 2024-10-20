@@ -11,6 +11,6 @@ export const ROUTES = {
   },
 };
 
-export const generateUrl = (url: string, params?: any) => {
+export const generateUrl = (url: string) => {
   return url;
 };

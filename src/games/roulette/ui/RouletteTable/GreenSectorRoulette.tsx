@@ -1,10 +1,8 @@
 import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
 import { twMerge } from 'tailwind-merge';
 import {
-  RouletteColor,
   selectActiveNumber,
   selectCurrentBet,
-  setActiveColor,
   setActiveNumber,
 } from '../../slice/rouletteSlice';
 import { useState } from 'react';
