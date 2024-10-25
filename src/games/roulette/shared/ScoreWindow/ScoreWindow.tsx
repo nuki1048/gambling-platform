@@ -8,11 +8,9 @@ interface ScoreWindowProps {
   id: Id;
   title: string;
   value: number | string | null;
-  background: string;
 }
 
 export const ScoreWindow: React.FC<ScoreWindowProps> = ({
-  background,
   id,
   title,
   value,
@@ -34,8 +32,7 @@ export const ScoreWindow: React.FC<ScoreWindowProps> = ({
   return (
     <div
       key={id}
-      className='relative flex justify-center items-center w-[223px] h-[60px] no-repeat bg-center bg-cover'
-      style={{ background: `url('${background}') ` }}
+      className='relative flex justify-center items-center w-[223px] h-[60px] no-repeat bg-center bg-cover bg-roulette-score-window'
     >
       <div className='absolute top-[-15px] left-0 text-xs text-[#A0B9A2CC]'>
         {title}

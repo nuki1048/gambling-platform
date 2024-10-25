@@ -1,18 +1,9 @@
 import { Container, Sprite } from '@pixi/react';
-import bgRoulette from '../../../../assets/roulette/bg-main-roulette.png';
+import bgRoulette from '../../../../assets/slots/bg-main.png';
 export const BGPX = () => {
   return (
     <Container>
-      <Sprite
-        x={-40}
-        y={-35}
-        anchor={{
-          x: 0,
-          y: 0,
-        }}
-        image={bgRoulette}
-        scale={1}
-      />
+      <Sprite x={-180} y={-110} image={bgRoulette} scale={1} />
     </Container>
   );
 };

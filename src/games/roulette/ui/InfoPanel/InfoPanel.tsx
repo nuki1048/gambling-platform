@@ -4,7 +4,6 @@ import {
   selectActiveNumber,
   selectCurrentBet,
 } from '../../slice/rouletteSlice';
-import background from '../../../../assets/roulette/info-bets-bg.svg';
 import { Id, INFO_PANEL_ITEMS } from '../RouletteTable/initData';
 import { selectWalletBalance } from '../../../../entities/wallet/slices/walletSlice';
 import { ScoreWindow } from '../../shared/ScoreWindow/ScoreWindow';
@@ -40,7 +39,6 @@ const InfoPanel = () => {
           id={id}
           title={title}
           value={getValueOfItem(id)}
-          background={background}
         />
       ))}
     </div>
