@@ -12,7 +12,6 @@ const generateRandomRow = (slotRows: TSlotRow[]) => {
 };
 
 const RowsPX = () => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [loading, setLoading] = useState(false);
   const rows = useAppSelector(selectSlotRows);
 
@@ -26,6 +25,8 @@ const RowsPX = () => {
 
   useEffect(() => {
     setLoading(true);
+
+    console.log('RowsPX loading', loading);
   }, []);
 
   return (
