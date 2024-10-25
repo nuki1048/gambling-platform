@@ -27,6 +27,7 @@ const RowsPX = () => {
     setLoading(true);
 
     console.log('RowsPX loading', loading);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
