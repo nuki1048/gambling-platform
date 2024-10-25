@@ -1,6 +1,6 @@
 import React from 'react';
-import RouletteTable from '@/games/roulette//ui/RouletteTable/RouletteTable';
-import BetsPanel from '@/games/roulette/ui/BetsPanel/BetsPanel';
+import RouletteTable from '../../../../games/roulette//ui/RouletteTable/RouletteTable';
+import BetsPanel from '../../../../games/roulette/ui/BetsPanel/BetsPanel';
 import InfoPanel from '../../ui/InfoPanel/InfoPanel';
 import EventPanel from '../../ui/EventPanel/EventPanel';
 import { RouletteAdditionalTable } from '../../ui/RouletteTable/RouletteAdditionalTable';

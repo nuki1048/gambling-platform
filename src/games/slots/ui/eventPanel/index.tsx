@@ -7,13 +7,13 @@ import {
   selectSlotWinOrLose,
   startSlot,
 } from '../../slices/slotSlice';
-import winImage from '@/assets/slots/bigWin.png';
-import loseImage from '@/assets/slots/tryAgain.png';
-import spinText from '@/assets/slots/spin.png';
-import buttonImage from '@/assets/slots/button.svg';
-import handleImage from '@/assets/slots/handle.png';
+import winImage from '../../../../assets/slots/bigWin.png';
+import loseImage from '../../../../assets/slots/tryAgain.png';
+import spinText from '../../../../assets/slots/spin.png';
+import buttonImage from '../../../../assets/slots/button.svg';
+import handleImage from '../../../../assets/slots/handle.png';
 import { twMerge } from 'tailwind-merge';
-import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../app/store/hooks';
 import { toast } from 'react-toastify';
 
 const SlotEventPanel: FC = () => {

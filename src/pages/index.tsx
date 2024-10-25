@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import { ROUTES } from '@/app/router/utils';
-import { useAppSelector } from '@/app/store/hooks';
-import { selectUsernickname } from '@/entities/user/slices/userSlice';
+import { ROUTES } from '../app/router/utils';
+import { useAppSelector } from '../app/store/hooks';
+import { selectUsernickname } from '../entities/user/slices/userSlice';
 
 export const MainPage = () => {
   const nickname = useAppSelector(selectUsernickname);

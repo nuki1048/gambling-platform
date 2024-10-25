@@ -1,6 +1,6 @@
 import SlotsGameScene from './scene/GameScene';
-import titleImg from '@/assets/slots/main-icon.png';
-import soundBg from '@/assets/sounds/jazz-background-music-bar-restaurant-casino-mafia-whiskey-249670.mp3';
+import titleImg from '../../assets/slots/main-icon.png';
+import soundBg from '../../assets/sounds/jazz-background-music-bar-restaurant-casino-mafia-whiskey-249670.mp3';
 import { useEffect } from 'react';
 import useSound from 'use-sound';
 

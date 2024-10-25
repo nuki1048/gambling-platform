@@ -1,5 +1,5 @@
 import { Container, Sprite } from '@pixi/react';
-import bgRoulette from '@/assets/slots/bg.png';
+import bgRoulette from '../../../../assets/roulette/bg-main-roulette.png';
 export const BGPX = () => {
   return (
     <Container>

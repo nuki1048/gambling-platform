@@ -1,7 +1,7 @@
 import { Container, Sprite } from '@pixi/react';
-import bodyImage from '@/assets/slots/body.svg';
-import lineImage from '@/assets/slots/lineIcon.svg';
-import horizontalLine from '@/assets/slots/horizontal-line.svg';
+import bodyImage from '../../../../assets/slots/body.svg';
+import lineImage from '../../../../assets/slots/lineIcon.svg';
+import horizontalLine from '../../../../assets/slots/horizontal-line.svg';
 
 import { FC } from 'react';
 

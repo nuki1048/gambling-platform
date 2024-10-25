@@ -1,11 +1,11 @@
-import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../app/store/hooks';
 import { useEffect } from 'react';
 import {
   selectSlotLifecycle,
   setLifecycle,
   SlotLifecycle,
 } from '../../slices/slotSlice';
-import soundEffect from '@/assets/sounds/54109742_8bit-slot-machine-stinger_by_ruinmusic_preview.mp3';
+import soundEffect from '../../../../assets/sounds/54109742_8bit-slot-machine-stinger_by_ruinmusic_preview.mp3';
 import useSound from 'use-sound';
 
 type Props = {

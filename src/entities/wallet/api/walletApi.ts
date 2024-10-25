@@ -1,4 +1,4 @@
-import { API_URL } from '@/app/config/network';
+import { API_URL } from '../../../app/config/network';
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 enum TAGS {

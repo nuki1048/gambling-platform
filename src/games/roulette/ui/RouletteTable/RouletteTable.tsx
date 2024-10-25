@@ -1,12 +1,12 @@
 import { ROULETTE_TABLE_NUMBERS } from './initData';
-import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../app/store/hooks';
 import {
   selectActiveNumber,
   selectCurrentBet,
   setActiveNumber,
-} from '@/games/roulette/slice/rouletteSlice';
+} from '../../../../games/roulette/slice/rouletteSlice';
 import useSound from 'use-sound';
-import soundNumber from '@/assets/sounds/roulette/number.mp3';
+import soundNumber from '../../../../assets/sounds/roulette/number.mp3';
 import { RouletteColorButton } from './RouletteColorButton';
 import { toast } from 'react-toastify';
 const RouletteTable = () => {

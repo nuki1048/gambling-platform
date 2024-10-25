@@ -1,9 +1,9 @@
-import RouletteSpinPX from '@/games/roulette/pixi/rouletteSpin/RouletteSpinPX';
+import RouletteSpinPX from '../../../../games/roulette/pixi/rouletteSpin/RouletteSpinPX';
 import GameSceneUI from './GameSceneUI';
-import { Stage } from '@/app/config/contextBridge';
+import { Stage } from '../../../../app/config/contextBridge';
 import GameSceneActionsProvider from './GameSceneActionsProvider';
 import { BGPX } from '../../pixi/bgPX/bgPX';
-import soundBg from '@/assets/sounds/roulette/bg.mp3';
+import soundBg from '../../../../assets/sounds/roulette/bg.mp3';
 import { useEffect } from 'react';
 import useSound from 'use-sound';
 const [width, height] = [1150, 500];

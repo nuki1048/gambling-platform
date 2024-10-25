@@ -1,10 +1,9 @@
-import { Container, Graphics, Sprite } from '@pixi/react';
+import { Container, Graphics } from '@pixi/react';
 import RowPX from './RowPX';
 import { SLOT_ROW, TSlotRow } from './utils';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { useAppSelector } from '@/app/store/hooks';
+import { useAppSelector } from '../../../../app/store/hooks';
 import { selectSlotRows } from '../../slices/slotSlice';
-import bgSlots from '@/assets/slots/slots-bg.png';
 
 const generateRandomRow = (slotRows: TSlotRow[]) => {
   const clone = [...slotRows];
@@ -13,6 +12,7 @@ const generateRandomRow = (slotRows: TSlotRow[]) => {
 };
 
 const RowsPX = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [loading, setLoading] = useState(false);
   const rows = useAppSelector(selectSlotRows);
 

@@ -1,11 +1,11 @@
-import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../app/store/hooks';
 import {
   selectCurrentBet,
   setCurrentBet,
-} from '@/games/roulette/slice/rouletteSlice';
+} from '../../../../games/roulette/slice/rouletteSlice';
 import { BETS } from '../RouletteTable/initData';
 import Bet from './Bet';
-import { selectWalletBalance } from '@/entities/wallet/slices/walletSlice';
+import { selectWalletBalance } from '../../../../entities/wallet/slices/walletSlice';
 import { toast } from 'react-toastify';
 
 const BetsPanel = () => {

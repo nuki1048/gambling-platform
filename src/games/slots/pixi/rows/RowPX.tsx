@@ -1,7 +1,7 @@
 import { Container, Sprite, useTick } from '@pixi/react';
 import { TSlotRow } from './utils';
 import { useState } from 'react';
-import { useAppSelector } from '@/app/store/hooks';
+import { useAppSelector } from '../../../../app/store/hooks';
 import { selectSlotLifecycle, SlotLifecycle } from '../../slices/slotSlice';
 
 type Props = {

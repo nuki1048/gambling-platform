@@ -1,12 +1,12 @@
-import { useAppSelector } from '@/app/store/hooks';
+import { useAppSelector } from '../../../../app/store/hooks';
 import {
   selectActiveColor,
   selectActiveNumber,
   selectCurrentBet,
 } from '../../slice/rouletteSlice';
-import background from '@/assets/roulette/info-bets-bg.svg';
+import background from '../../../../assets/roulette/info-bets-bg.svg';
 import { Id, INFO_PANEL_ITEMS } from '../RouletteTable/initData';
-import { selectWalletBalance } from '@/entities/wallet/slices/walletSlice';
+import { selectWalletBalance } from '../../../../entities/wallet/slices/walletSlice';
 import { ScoreWindow } from '../../shared/ScoreWindow/ScoreWindow';
 import { selectCurrentNumber } from '../../slice/rouletteSpinSlice';
 

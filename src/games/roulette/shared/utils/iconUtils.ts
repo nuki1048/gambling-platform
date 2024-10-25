@@ -1,8 +1,8 @@
-import bet50 from '@/assets/roulette/bet-50.png';
-import bet100 from '@/assets/roulette/bet-100.png';
-import bet200 from '@/assets/roulette/bet-200.png';
-import bet400 from '@/assets/roulette/bet-400.png';
-import bet800 from '@/assets/roulette/bet-800.png';
+import bet50 from '../../../../assets/roulette/bet-50.png';
+import bet100 from '../../../..assets/roulette/bet-100.png';
+import bet200 from '../../../..assets/roulette/bet-200.png';
+import bet400 from '../../../..assets/roulette/bet-400.png';
+import bet800 from '../../../..assets/roulette/bet-800.png';
 
 export const getIcon = (currentBet: number) => {
   const isMoreThan50 = currentBet >= 50;

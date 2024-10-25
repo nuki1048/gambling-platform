@@ -1,4 +1,4 @@
-import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../app/store/hooks';
 import { setRouletteStartSpeed } from '../../slice/rouletteSpinSlice';
 import {
   RouletteLifecycle,

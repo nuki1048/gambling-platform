@@ -1,13 +1,13 @@
-import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../app/store/hooks';
 import { toast } from 'react-toastify';
 import Bet from './Bet';
 import {
   selectSlotCurrentBet,
   setSlotCurrentBet,
 } from '../../slices/slotSlice';
-import { selectWalletBalance } from '@/entities/wallet/slices/walletSlice';
-import leftPenny from '@/assets/slots/left-penny.svg';
-import rightPenny from '@/assets/slots/right-penny.svg';
+import { selectWalletBalance } from '../../../../entities/wallet/slices/walletSlice';
+import leftPenny from '../../../../assets/slots/left-penny.svg';
+import rightPenny from '../../../../assets/slots/right-penny.svg';
 enum BetType {
   Bet50 = 'bg-bet-bg-50',
   Bet100 = 'bg-bet-bg-100',

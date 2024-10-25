@@ -1,5 +1,5 @@
-import infoIcon from '@/assets/roulette/infoIcon.svg';
-import infoBox from '@/assets/roulette/infoBox.svg';
+import infoIcon from 'assets/roulette/infoIcon.svg';
+import infoBox from '../../../../assets/roulette/infoBox.svg';
 import { useState } from 'react';
 
 export const InfoButton = () => {

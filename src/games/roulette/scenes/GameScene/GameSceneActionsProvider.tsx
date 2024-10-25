@@ -1,4 +1,4 @@
-import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../app/store/hooks';
 import React, { useEffect } from 'react';
 import {
   clearRoulette,
@@ -17,7 +17,7 @@ import {
   clearRouletteSpin,
   selectCurrentNumber,
 } from '../../slice/rouletteSpinSlice';
-import { setBalance } from '@/entities/wallet/slices/walletSlice';
+import { setBalance } from '../../../../entities/wallet/slices/walletSlice';
 import { ROULETTE_TABLE_NUMBERS } from '../../ui/RouletteTable/initData';
 
 type Props = {

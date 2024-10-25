@@ -1,4 +1,4 @@
-import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../app/store/hooks';
 import {
   RouletteColor,
   selectActiveColor,
@@ -9,7 +9,7 @@ import {
 import { twJoin } from 'tailwind-merge';
 import { getIcon } from '../../shared/utils/iconUtils';
 import useSound from 'use-sound';
-import soundNumber from '@/assets/sounds/roulette/number.mp3';
+import soundNumber from '../../../../assets/sounds/roulette/number.mp3';
 import { toast } from 'react-toastify';
 export const RouletteAdditionalTable = () => {
   const [play] = useSound(soundNumber);

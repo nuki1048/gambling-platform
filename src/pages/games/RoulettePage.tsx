@@ -1,4 +1,4 @@
-import GameRoulette from '@/games/roulette';
+import GameRoulette from '../../games/roulette';
 
 const RoulettePage = () => {
   return (

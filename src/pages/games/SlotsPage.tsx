@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { ROUTES } from '@/app/router/utils';
-import CoreGameSlots from '@/games/slots';
+import { ROUTES } from '../../app/router/utils';
+import CoreGameSlots from '../../games/slots';
 
 const SlotsPage = () => {
   return (

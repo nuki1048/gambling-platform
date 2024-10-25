@@ -1,25 +1,25 @@
 import { Container, Sprite, useTick } from '@pixi/react';
-import externalCircle from '@/assets/roulette/external-circle.png';
-import internalCircle from '@/assets/roulette/internal-circle.png';
-import mediumCircle from '@/assets/roulette/medium-circle.png';
-import wheel from '@/assets/roulette/wheel.png';
-import arrow from '@/assets/roulette/arrow.png';
-import bgRoulette from '@/assets/roulette/bg-roulette.png';
+import externalCircle from '../../../../assets/roulette/external-circle.png';
+import internalCircle from '../../../../assets/roulette/internal-circle.png';
+import mediumCircle from '../../../../assets/roulette/medium-circle.png';
+import wheel from '../../../../assets/roulette/wheel.png';
+import arrow from '../../../../assets/roulette/arrow.png';
+import bgRoulette from '../../../../assets/roulette/bg-roulette.png';
 import { useEffect, useState } from 'react';
-import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../app/store/hooks';
 import {
   selecteRouletteSpinSpeed,
   selectRotationRouletteInProgress,
   setRouletteSpeed,
   setRouletteSpinDegreeesRotation,
 } from '../../slice/rouletteSpinSlice';
-import { radianToDegrees } from '@/shared/lib/degrees/radianToDegrees';
+import { radianToDegrees } from '../../../../shared/lib/degrees/radianToDegrees';
 import {
   RouletteLifecycle,
   setRouletteLifecycle,
 } from '../../slice/rouletteSlice';
 import useSound from 'use-sound';
-import soundSpin from '@/assets/sounds/roulette/spin.mp3';
+import soundSpin from '../../../../assets/sounds/roulette/spin.mp3';
 const POSITION_SPIN = {
   x: 264,
   y: 286,

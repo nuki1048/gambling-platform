@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ROUTES } from '@/app/router/utils';
+import { ROUTES } from '../../app/router/utils';
 
 const HummersPage = () => {
   return (

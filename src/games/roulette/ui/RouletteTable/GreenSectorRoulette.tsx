@@ -1,4 +1,4 @@
-import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../app/store/hooks';
 import { twMerge } from 'tailwind-merge';
 import {
   selectActiveNumber,

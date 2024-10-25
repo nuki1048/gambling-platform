@@ -1,7 +1,7 @@
-import { Stage } from '@/app/config/contextBridge';
+import { Stage } from '../../../../app/config/contextBridge';
 import SlotsGameSceneUI from './GameSceneUI';
 import RowsPX from '../../pixi/rows/RowsPX';
-import { BGPX } from '@/games/slots/pixi/bgPX/bgPX';
+import { BGPX } from '../../../../games/slots/pixi/bgPX/bgPX';
 import SlotLifecycleProvider from './SlotLifecycleProvider';
 import BalanceProvider from './BalanceProvider';
 import BodyPX from '../../pixi/body/bodyPX';

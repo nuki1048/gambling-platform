@@ -1,4 +1,4 @@
-import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../app/store/hooks';
 import React, { useEffect } from 'react';
 import {
   selectSlotCurrentBet,
@@ -8,10 +8,10 @@ import {
   SlotLifecycle,
   WinOrLose,
 } from '../../slices/slotSlice';
-import { setBalance } from '@/entities/wallet/slices/walletSlice';
+import { setBalance } from '../../../../entities/wallet/slices/walletSlice';
 import useSound from 'use-sound';
-import soundEffectLose from '@/assets/sounds/mixkit-melodic-bonus-collect-1938.wav';
-import soundEffectWin from '@/assets/sounds/mixkit-magical-coin-win-1936.mp3';
+import soundEffectLose from '../../../../assets/sounds/mixkit-melodic-bonus-collect-1938.wav';
+import soundEffectWin from '../../../../assets/sounds/mixkit-magical-coin-win-1936.mp3';
 type Props = {
   children: React.ReactNode;
 };

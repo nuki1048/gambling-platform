@@ -1,8 +1,14 @@
 import React from 'react';
-// import { BetType } from './types';
 import useSound from 'use-sound';
-import soundBet from '@/assets/sounds/roulette/bet.mp3';
-import { BetType } from './betsPanel';
+import soundBet from '../../../../assets/sounds/roulette/bet.mp3';
+// eslint-disable-next-line react-refresh/only-export-components
+export enum BetType {
+  Bet50 = 'bg-bet-bg-50',
+  Bet100 = 'bg-bet-bg-100',
+  Bet200 = 'bg-bet-bg-200',
+  Bet400 = 'bg-bet-bg-400',
+  Bet800 = 'bg-bet-bg-800',
+}
 
 interface Props {
   background: BetType;

@@ -1,5 +1,5 @@
 import { Container, Sprite } from '@pixi/react';
-import bgRoulette from '@/assets/roulette/bg-main-roulette.png';
+import bgRoulette from '../../../../assets/roulette/bg-main-roulette.png';
 export const BGPX = () => {
   return (
     <Container>
@@ -10,7 +10,6 @@ export const BGPX = () => {
           x: 0,
           y: 0,
         }}
-        // rotation={rotationInternal}
         image={bgRoulette}
         scale={0.493}
       />

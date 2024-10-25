@@ -1,7 +1,7 @@
 import React from 'react';
 import { BetType } from './types';
 import useSound from 'use-sound';
-import soundBet from '@/assets/sounds/roulette/bet.mp3';
+import soundBet from '../../../../assets/sounds/roulette/bet.mp3';
 
 interface Props {
   background: BetType;

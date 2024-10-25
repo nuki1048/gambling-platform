@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import userSlice from '@/entities/user/slices/userSlice';
-import { userApi } from '@/entities/user/api/userApi';
-import rouletteSlice from '@/games/roulette/slice/rouletteSlice';
-import rouletteSpinSlice from '@/games/roulette/slice/rouletteSpinSlice';
-import walletApi from '@/entities/wallet/api/walletApi';
-import walletSlice from '@/entities/wallet/slices/walletSlice';
+import userSlice from '../../entities/user/slices/userSlice';
+import { userApi } from '../../entities/user/api/userApi';
+import rouletteSlice from '../../games/roulette/slice/rouletteSlice';
+import rouletteSpinSlice from '../../games/roulette/slice/rouletteSpinSlice';
+import walletApi from '../../entities/wallet/api/walletApi';
+import walletSlice from '../../entities/wallet/slices/walletSlice';
 import slotSlice from '../../games/slots/slices/slotSlice';
 export const store = configureStore({
   reducer: {

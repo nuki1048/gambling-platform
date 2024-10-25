@@ -1,13 +1,13 @@
-import { useAppSelector } from '@/app/store/hooks';
+import { useAppSelector } from '../../../../app/store/hooks';
 import {
   selectSlotCurrentBet,
   selectSlotLifecycle,
   SlotLifecycle,
 } from '../../slices/slotSlice';
-import { selectWalletBalance } from '@/entities/wallet/slices/walletSlice';
+import { selectWalletBalance } from '../../../../entities/wallet/slices/walletSlice';
 import { useEffect, useState } from 'react';
-import balanceIcon from '@/assets/slots/balanceIcon.svg';
-import betIcon from '@/assets/slots/betIcon.svg';
+import balanceIcon from '../../../../assets/slots/balanceIcon.svg';
+import betIcon from '../../../../assets/slots/betIcon.svg';
 
 const SlotsInfoPanel = () => {
   const currentBet = useAppSelector(selectSlotCurrentBet);
