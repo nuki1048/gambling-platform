@@ -12,6 +12,9 @@ export default {
         'bets-panel': "url('/src/assets/roulette/bg-bets.png')",
         roulette: "url('/src/assets/roulette/bg-main.png')",
         greenSector: "url('/src/assets/roulette/greenSectorIcon.svg')",
+        slots: "url('/src/assets/slots/main-bg.png')",
+        'slots-bets': "url('/src/assets/slots/betIcon.png')",
+        'slots-event-panel': "url('/src/assets/slots/rectangle-frame.png')",
       },
       boxShadow: {
         roulette: '0px 0px 11px 23px #561C08',

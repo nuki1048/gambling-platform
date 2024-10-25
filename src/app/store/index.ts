@@ -5,6 +5,7 @@ import rouletteSlice from '@/games/roulette/slice/rouletteSlice';
 import rouletteSpinSlice from '@/games/roulette/slice/rouletteSpinSlice';
 import walletApi from '@/entities/wallet/api/walletApi';
 import walletSlice from '@/entities/wallet/slices/walletSlice';
+import slotSlice from '../../games/slots/slices/slotSlice';
 export const store = configureStore({
   reducer: {
     user: userSlice,
@@ -13,6 +14,7 @@ export const store = configureStore({
     roulette: rouletteSlice,
     rouletteSpin: rouletteSpinSlice,
     wallet: walletSlice,
+    slot: slotSlice,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(userApi.middleware),
